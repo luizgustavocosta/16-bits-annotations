@@ -1,0 +1,28 @@
+name: Annotations
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: Ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+    - name: Set up Java
+      uses: actions/setup-java@v1
+      with:
+        java-version: 11
+    - name: Build with Maven
+      run: mvn clean package
+
+    - name: Install dependencies
+      run: mvn dependency:go-offline compile compiler:testCompile
+
+    - name: Run Test
+      if: always()
+      run: mvn package
+      continue-on-error: true

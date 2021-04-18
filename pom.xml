@@ -22,7 +22,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <aspectj.version>1.9.4</aspectj.version>
         <jacoco.version>0.8.3</jacoco.version>
-        <sonar.projectKey>luizgustavocosta_16-bits-annotations-${project.groupId}:${project.artifactId}</sonar.projectKey>
+        <sonar.projectKey>luizgustavocosta_16-bits-annotations-${project.groupId}:${project.artifactId}
+        </sonar.projectKey>
         <sonar.organization>luizgustavocosta</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
@@ -129,33 +130,35 @@
             </plugin>
         </plugins>
     </build>
-    <profile>
-        <id>sonar</id>
-        <properties>
-            <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-            <sonar.organization>luizgustavocosta</sonar.organization>
-            <sonar.projectKey>luizgustavocosta_16-bits-annotations</sonar.projectKey>
-            <sonar.modulekey>${project.groupId}:${project.artifactId}</sonar.modulekey>
-        </properties>
-        <activation>
-            <activeByDefault>false</activeByDefault>
-        </activation>
-        <build>
-            <plugins>
-                <plugin>
-                    <groupId>org.sonarsource.scanner.maven</groupId>
-                    <artifactId>sonar-maven-plugin</artifactId>
-                    <executions>
-                        <execution>
-                            <id>sonar</id>
-                            <phase>verify</phase>
-                            <goals>
-                                <goal>sonar</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
-            </plugins>
-        </build>
-    </profile>
+    <profiles>
+        <profile>
+            <id>sonar</id>
+            <properties>
+                <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+                <sonar.organization>luizgustavocosta</sonar.organization>
+                <sonar.projectKey>luizgustavocosta_16-bits-annotations</sonar.projectKey>
+                <sonar.modulekey>${project.groupId}:${project.artifactId}</sonar.modulekey>
+            </properties>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.sonarsource.scanner.maven</groupId>
+                        <artifactId>sonar-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>sonar</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sonar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>

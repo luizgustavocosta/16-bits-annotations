@@ -1,6 +1,6 @@
 package com.costa.luiz;
 
-import com.bits16.tech.annotation.processor.numbers.GreaterThanZero;
+import com.costa.luiz.annotation.processor.numbers.GreaterThanZero;
 
 public class MyNumber {
 

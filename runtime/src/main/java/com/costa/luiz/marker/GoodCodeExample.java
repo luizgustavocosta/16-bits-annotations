@@ -1,5 +1,7 @@
 package com.costa.luiz.marker;
 
+import com.costa.luiz.annotation.marker.UseAsExample;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,5 +1,7 @@
 package com.costa.luiz.marker;
 
+import com.costa.luiz.annotation.marker.UseAsExample;
+
 public class AppGoodExample {
 
     public static void main(String[] args) {

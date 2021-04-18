@@ -1,6 +1,10 @@
 package com.costa.luiz.type;
 
 
+import com.costa.luiz.annotation.type.CustomType;
+import com.costa.luiz.annotation.type.Length;
+import com.costa.luiz.annotation.type.MaxLength;
+import com.costa.luiz.annotation.type.MinLength;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validation;
 import jakarta.validation.Validator;

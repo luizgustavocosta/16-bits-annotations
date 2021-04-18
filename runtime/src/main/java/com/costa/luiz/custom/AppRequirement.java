@@ -1,6 +1,6 @@
 package com.costa.luiz.custom;
 
-import com.bits16.tech.annotation.processor.custom.Requirement;
+import com.costa.luiz.annotation.processor.custom.Requirement;
 
 import java.lang.reflect.Method;
 

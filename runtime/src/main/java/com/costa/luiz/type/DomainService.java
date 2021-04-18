@@ -1,5 +1,7 @@
 package com.costa.luiz.type;
 
+import com.costa.luiz.annotation.type.CustomType;
+
 import static java.util.Objects.isNull;
 
 public class DomainService {

@@ -11,6 +11,10 @@
 
     <artifactId>processor</artifactId>
 
+    <properties>
+        <sonar.projectKey>luizgustavocosta_16-bits-annotations-${project.groupId}:${project.artifactId}</sonar.projectKey>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>jakarta.validation</groupId>

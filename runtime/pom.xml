@@ -9,6 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <sonar.projectKey>luizgustavocosta_16-bits-annotations-${project.groupId}:${project.artifactId}</sonar.projectKey>
+    </properties>
+
     <artifactId>runtime</artifactId>
     <dependencies>
         <dependency>

@@ -15,7 +15,6 @@ public class MethodProcessor extends AbstractProcessor {
 
     public boolean process(Set<? extends TypeElement> annotations,
                            RoundEnvironment env) {
-        System.out.println("Method processor rocks!");
         annotations.forEach(annotation -> {
                     Set<? extends Element> elements = env.getElementsAnnotatedWith(annotation);
                     System.out.println("elements = " + elements);

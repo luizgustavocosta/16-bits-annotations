@@ -10,13 +10,15 @@ How to work with annotations
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-## Build status
+## Build Status
 [![Annotations](https://github.com/luizgustavocosta/16-bits-annotations/actions/workflows/annotations.yml/badge.svg)](https://github.com/luizgustavocosta/16-bits-annotations/actions/workflows/annotations.yml)
+
+## Quality Gate Status
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=luizgustavocosta_16-bits-annotations&metric=alert_status)](https://sonarcloud.io/dashboard?id=luizgustavocosta_16-bits-annotations)
 
 ## References
 [Shields](https://shields.io/#your-badge)
 
-## Links
 [contributors-shield]: https://img.shields.io/github/contributors/luizgustavocosta/16-bits-annotations.svg?style=for-the-badge
 [contributors-url]: https://github.com/luizgustavocosta/16-bits-annotations/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/luizgustavocosta/16-bits-annotations.svg?style=for-the-badge

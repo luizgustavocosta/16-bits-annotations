@@ -18,7 +18,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 public @interface MinLength {
 
     //Example from https://github.com/HillmerCh
-    String message() default "Must be greater than {value}";
+    String message() default "{com.costa.luiz.annotation.minLength}";
     int value();
     Class<?>[] groups() default { };
     Class<? extends Payload>[] payload() default { };

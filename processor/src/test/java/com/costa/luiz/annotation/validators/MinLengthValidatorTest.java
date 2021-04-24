@@ -53,8 +53,6 @@ class MinLengthValidatorTest {
             final String annotationMessage = constraintViolations.stream()
                     .map(ConstraintViolation::getMessage).collect(Collectors.joining());
 
-            System.out.println("annotationMessage = " + annotationMessage);
-            System.out.println("message = " + message);
             assertTrue(annotationMessage.contains(message));
         });
 

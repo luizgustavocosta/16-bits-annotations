@@ -41,6 +41,27 @@
             <artifactId>jakarta.el</artifactId>
             <version>${jakarta.el-version}</version>
         </dependency>
+
+        <!-- Code generator -->
+        <dependency>
+            <groupId>com.squareup</groupId>
+            <artifactId>javapoet</artifactId>
+            <version>1.13.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.auto.service</groupId>
+            <artifactId>auto-service</artifactId>
+            <version>1.0-rc1</version>
+            <optional>true</optional>
+        </dependency>
+
     </dependencies>
 
 </project>

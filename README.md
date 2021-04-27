@@ -56,7 +56,7 @@ This project has the following modules
 
 ## References
 [Shields](https://shields.io/#your-badge)
-
+[Baeldung](https://www.baeldung.com/java-annotation-processing-builder)
 [contributors-shield]: https://img.shields.io/github/contributors/luizgustavocosta/16-bits-annotations.svg?style=plastic
 [contributors-url]: https://github.com/luizgustavocosta/16-bits-annotations/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/luizgustavocosta/16-bits-annotations.svg?style=plastic

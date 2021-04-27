@@ -41,8 +41,11 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                    <encoding>UTF-8</encoding>
+                    <generatedSourcesDirectory>${project.build.directory}/generated-sources</generatedSourcesDirectory>
                     <annotationProcessors>
-                        <annotationProcessor>com.costa.luiz.annotation.processor.numbers.MethodProcessor</annotationProcessor>
+<!--                        <annotationProcessor>com.costa.luiz.annotation.processor.numbers.MethodProcessor</annotationProcessor>-->
+                        <annotationProcessor>com.costa.luiz.annotation.processor.builder.BuilderProcessor</annotationProcessor>
                         <annotationProcessor>com.costa.luiz.annotation.processor.type.SampleProcessor</annotationProcessor>
                     </annotationProcessors>
                 </configuration>

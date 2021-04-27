@@ -32,13 +32,13 @@
         <module>runtime</module>
     </modules>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Luiz Costa Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/luizgustavocosta/16-bits-annotations</url>
-        </repository>
-    </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>github</id>-->
+<!--            <name>GitHub Luiz Costa Apache Maven Packages</name>-->
+<!--            <url>https://maven.pkg.github.com/luizgustavocosta/16-bits-annotations</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
 
     <dependencyManagement>
         <dependencies>

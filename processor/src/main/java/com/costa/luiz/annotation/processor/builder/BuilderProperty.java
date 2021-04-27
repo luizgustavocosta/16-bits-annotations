@@ -1,11 +1,11 @@
-package com.costa.luiz.annotation.processor.type;
+package com.costa.luiz.annotation.processor.builder;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.TYPE)
+@Target(ElementType.METHOD)
 @Retention(RetentionPolicy.SOURCE)
-public @interface Bar {
+public @interface BuilderProperty {
 }

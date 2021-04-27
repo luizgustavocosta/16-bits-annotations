@@ -12,7 +12,8 @@
     <artifactId>processor</artifactId>
 
     <properties>
-        <sonar.projectKey>luizgustavocosta_16-bits-annotations-${project.groupId}:${project.artifactId}</sonar.projectKey>
+        <sonar.projectKey>luizgustavocosta_16-bits-annotations-${project.groupId}:${project.artifactId}
+        </sonar.projectKey>
         <jakarta.validation.api-version>3.0.0</jakarta.validation.api-version>
         <junit.jupiter.params-version>5.7.0</junit.jupiter.params-version>
         <jakarta.el-version>4.0.0</jakarta.el-version>
@@ -58,9 +59,9 @@
         <dependency>
             <groupId>com.google.auto.service</groupId>
             <artifactId>auto-service</artifactId>
-            <version>1.0-rc1</version>
-            <optional>true</optional>
+            <version>1.0-rc7</version>
         </dependency>
+
 
     </dependencies>
 

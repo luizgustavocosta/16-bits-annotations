@@ -1,6 +1,7 @@
 package com.costa.luiz.type;
 
 import com.costa.luiz.annotation.type.CustomType;
+import com.costa.luiz.generated.MyClassGenerated;
 
 import static java.util.Objects.isNull;
 
